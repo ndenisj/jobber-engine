@@ -12,3 +12,10 @@ nx g resolver users
 
 # create a service
 nx g service users
+
+# add transformers and validator
+npm i --save class-transformer class-validator
+
+# for password hashing
+npm i --save bcryptjs
+npm i --save-dev @types/bcryptjs
