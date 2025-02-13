@@ -19,3 +19,7 @@ npm i --save class-transformer class-validator
 # for password hashing
 npm i --save bcryptjs
 npm i --save-dev @types/bcryptjs
+
+# commit hooks
+npm i --save-dev husky lint-staged
+npx husky init
