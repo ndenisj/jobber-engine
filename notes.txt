@@ -1,0 +1,14 @@
+# create library
+nx g library libs/<name of library>
+
+# start an app
+nx serve <name of app>
+
+# install graphql
+npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql --save --force
+
+# create a new resolver for graphql
+nx g resolver users
+
+# create a service
+nx g service users
