@@ -26,3 +26,10 @@ npx husky init
 
 # setup config module
 npm i --save @nestjs/config
+
+# setup authentication
+npm i --save @nestjs/jwt
+nx g module auth
+nx g resolver auth
+nx g service auth
+https://randomkeygen.com/
