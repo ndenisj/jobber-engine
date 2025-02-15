@@ -33,3 +33,12 @@ nx g module auth
 nx g resolver auth
 nx g service auth
 https://randomkeygen.com/
+
+# Jwt strategies
+npm i --save passport-jwt @nestjs/passport passport
+npm i --save-dev @types/passport-jwt
+npm i --save cookie-parser
+npm i --save-dev @types/cookie-parser
+
+# save jwt in cookie in graphql
+"request.credentials": "same-origin"
