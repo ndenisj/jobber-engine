@@ -42,3 +42,6 @@ npm i --save-dev @types/cookie-parser
 
 # save jwt in cookie in graphql
 "request.credentials": "same-origin"
+
+# generate new app
+nx g application jobber-jobs
