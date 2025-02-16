@@ -45,3 +45,4 @@ npm i --save-dev @types/cookie-parser
 
 # generate new app
 nx g application jobber-jobs
+npm i --save @golevelup/nestjs-discovery
